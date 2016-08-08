@@ -1,0 +1,55 @@
+.form-flex {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.form-left {
+	width: 50%;
+}
+
+.form-right {
+	width: 50%;
+}
+
+textarea {
+	width: 95%;
+	height: 100%;
+	resize: none;
+	padding: 10px;
+}
+
+input[type=text]{
+	width:95%;
+	padding: 10px;
+}
+
+input[type=email]{
+	width: 95%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;	
+}
+
+input[type=submit]{
+	margin-top: 40px;
+	width: 150px;	
+}
+
+@media (max-width: 767px) {
+	.form-flex {
+		flex-direction: column;
+	}
+	.form-left {
+		width: 100%;
+	}
+
+	.form-right {
+		width: 100%;
+	}
+
+	textarea {
+		margin-top: 60px;
+		height: 300px;	
+	}
+}

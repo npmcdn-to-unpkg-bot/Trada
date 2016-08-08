@@ -1,0 +1,91 @@
+.who {
+	background-color: #f6f6f6;
+}
+
+
+.welcome-image {
+	position: relative;
+	right: 24%;
+}
+
+.welcome-image img {
+	height: 670px;
+	z-index: 1;
+}
+
+.welcome {
+	height: 600px;
+	max-width: 570px;
+	background-color: white;
+	z-index: 10;
+	position: absolute;	
+	top: 350px;
+	left: 45%;
+	text-align: left;
+	padding: 0 40px;
+	p {
+		text-align: left;
+	}
+	h2 {
+		text-align: left;
+
+	}
+}
+
+.welcome h3 {
+			text-align: left;
+		}
+
+.welcome img {
+	padding: 10px 0;
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	.welcome-card {
+		display: none;
+	}
+
+	.welcome {
+		position: static;
+		margin: 0 auto;
+		color: black;	
+	}
+
+		.who {
+		background-image: url(images/welcome.jpg);
+		background-size: cover;
+	}
+
+
+
+
+	.who p {
+		color: white;
+	}
+
+	.who .topper{
+		color: white;
+	}
+
+	.who .p-card {
+		color: black;
+	}
+	
+}	
+
+@media (max-width: 480px) {
+	.welcome-card {
+		display: none;
+	}
+
+	.welcome {
+		position: static;
+		margin: 0 auto;
+	}
+	.welcometwo {
+		position: static;
+		margin: 0 auto;
+	}
+
+}			

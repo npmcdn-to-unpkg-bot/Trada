@@ -1,0 +1,60 @@
+.fun-facts {
+	background-image: url(images/funfacts.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	color: #fff
+}
+
+.fun-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.fun-block {
+	border: 5px solid #fff;
+	width: 200px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	p {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-family: 'Montserrat', sans-serif;
+	}
+}
+
+.fun-icon {
+	position: relative;
+	background-color: #fff;
+	height: 50px;
+	width: 50px;
+	margin: 30px 0;
+	img {
+		position: absolute;
+		top: calc(50% - 10px);
+		left: 14px;
+	}
+}
+
+.num { 
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 767px) {
+	.fun-flex{
+		flex-direction: column;
+	}
+	.fun-block {
+		margin: 10px auto;
+	}
+}
